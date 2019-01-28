@@ -1,0 +1,2 @@
+turtle_drawer
+-DCATKIN_DEVEL_PREFIX=/home/alexandru/Documents/GitRepos/TurtleDrawer/devel -DCMAKE_INSTALL_PREFIX=/home/alexandru/Documents/GitRepos/TurtleDrawer/install -G Unix Makefiles

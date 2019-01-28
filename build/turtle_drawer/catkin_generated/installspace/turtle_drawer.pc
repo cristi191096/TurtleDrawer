@@ -1,0 +1,8 @@
+prefix=/home/alexandru/Documents/GitRepos/TurtleDrawer/install
+
+Name: turtle_drawer
+Description: Description of turtle_drawer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/alexandru/Documents/GitRepos/TurtleDrawer/install/lib 
+Requires: 
