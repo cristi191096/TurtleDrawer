@@ -22,5 +22,6 @@ class Application:
             for publisher in self.__publisherStack:
                 publisher.Publish()
             
-    
+    def Close(self):
+        self.__running = False
 
