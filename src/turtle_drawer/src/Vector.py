@@ -22,8 +22,9 @@ class Vector:
         self.__twist.linear.x = self.x = x
         self.__twist.linear.y = self.y = y
         self.__twist.linear.z = self.z = z
-        
-    def GetTwist(self):                         #Use this for publishers
+       
+    @property
+    def Twist(self):                         #Use this for publishers
         return self.__twist
         
     def __repr__(self, category):

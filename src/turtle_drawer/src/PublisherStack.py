@@ -2,14 +2,17 @@
 
 class PublisherStack:
     
-    __publishers = []
+    
     
     def __init__(self):
         #TODO
-        pass
+        self.publishers = []
+        self.dummy = 0
 
     def PushPublisher(self, pub):
-        self.__publishers.append(pub)
+        if pub not in self.__publishers:
+            self.publishers.append(pub)
         
     def PopPublisher(self, pub):
-        self.__publishers.remove(pub)
+        if pub in self.__publishers:
+            self.publishers.remove(pub)
