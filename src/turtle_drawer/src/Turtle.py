@@ -22,7 +22,7 @@ class Turtle:
         return Turtle.__turtles
         
     def Reset(self):
-        self.position.SetEulerAngles(0)
+        self.position.SetEulerAngles(0, 0, 0)
         self.position.SetVector(0, 0)
         
     

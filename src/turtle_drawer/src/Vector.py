@@ -13,7 +13,7 @@ class Vector:
         self.w = w
         
         
-    def SetEulerAngles(self, x = 0, y = 0, z):
+    def SetEulerAngles(self, x, y, z):
         self.__twist.angular.x = x
         self.__twist.angular.y = y
         self.__twist.angular.z = z

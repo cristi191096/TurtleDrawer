@@ -1,6 +1,9 @@
-import Turtle
+from Turtle import Turtle
+from Vector import Vector
 
-turtle = Turtle()
 
 if __name__ == '__main__':
-    pass
+	turtle = Turtle()
+	print (turtle.position.x)
+	turtle.position = Vector(4, 5)
+	print (str(turtle.position.x) + " , " + str(turtle.position.y))
